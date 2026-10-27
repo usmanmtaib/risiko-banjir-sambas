@@ -1,0 +1,20 @@
+{
+  "grid_cells": 6215,
+  "event_points": 753,
+  "events_assigned_to_grid": 753,
+  "risk_class_counts": {
+    "rendah": 6049,
+    "sedang": 92,
+    "tinggi": 74
+  },
+  "rainfall_features": {
+    "rain_mean_mm_day": 9.085326830937714,
+    "rain_max_mm_day": 168.28,
+    "rain_total_mm": 53094.65,
+    "rain_mean_annual_total_mm": 3318.4156249999996,
+    "rain_max_annual_total_mm": 4141.08
+  },
+  "crs_grid_metric": "EPSG:32649",
+  "grid_size_m": 1000,
+  "note": "risk_class_exploratory is a provisional frequency class and must be validated before supervised modeling."
+}

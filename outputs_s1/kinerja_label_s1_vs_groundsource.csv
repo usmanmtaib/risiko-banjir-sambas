@@ -1,0 +1,16 @@
+target,model,roc,roc_sd,pr,pr_sd,rho_s1_kontinu
+Groundsource: ada laporan,Fisik saja,0.659,0.015,0.079,0.007,0.095
+Groundsource: ada laporan,Gabungan,0.732,0.008,0.125,0.01,0.078
+Groundsource: ada laporan,HAND saja,0.698,0.017,0.082,0.01,0.147
+Groundsource: ada laporan,Pelaporan saja,0.769,0.007,0.146,0.01,0.102
+Groundsource: ada laporan,Populasi saja,0.747,0.005,0.131,0.006,0.195
+S1: desil teratas frekuensi genangan,Fisik saja,0.758,0.012,0.327,0.014,0.391
+S1: desil teratas frekuensi genangan,Gabungan,0.75,0.016,0.322,0.02,0.327
+S1: desil teratas frekuensi genangan,HAND saja,0.544,0.017,0.113,0.008,0.045
+S1: desil teratas frekuensi genangan,Pelaporan saja,0.592,0.017,0.144,0.024,-0.034
+S1: desil teratas frekuensi genangan,Populasi saja,0.468,0.027,0.094,0.006,-0.168
+"S1: frekuensi genangan > 0,1%",Fisik saja,0.763,0.005,0.473,0.009,0.409
+"S1: frekuensi genangan > 0,1%",Gabungan,0.752,0.007,0.46,0.013,0.36
+"S1: frekuensi genangan > 0,1%",HAND saja,0.579,0.012,0.219,0.011,0.039
+"S1: frekuensi genangan > 0,1%",Pelaporan saja,0.57,0.02,0.22,0.018,-0.041
+"S1: frekuensi genangan > 0,1%",Populasi saja,0.447,0.027,0.155,0.009,-0.039

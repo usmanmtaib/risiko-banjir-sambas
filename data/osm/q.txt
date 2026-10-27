@@ -1,0 +1,6 @@
+[out:json][timeout:180];
+(
+  way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential)$"](0.85,108.8,2.18,109.85);
+  node["place"~"^(city|town|village|hamlet|suburb)$"](0.85,108.8,2.18,109.85);
+);
+out geom;

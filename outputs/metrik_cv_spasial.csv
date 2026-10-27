@@ -1,0 +1,8 @@
+model,roc_auc_pooled,pr_auc_pooled,roc_auc_fold_mean,roc_auc_fold_sd,pr_auc_fold_mean
+Dummy (prior),0.4505,0.0239,0.5,0.0,0.0267
+Hanya populasi (LogReg),0.7333,0.1148,0.7293,0.0322,0.1252
+Logistic Regression (semua fitur),0.7184,0.1061,0.7198,0.0279,0.1181
+Random Forest (semua fitur),0.7044,0.0596,0.7075,0.0318,0.073
+Random Forest (tanpa populasi),0.6344,0.0419,0.6481,0.0457,0.0517
+"Random Forest teregularisasi (leaf=30, depth=6)",0.7203,0.0571,0.7268,0.0248,0.0701
+Random Forest teregularisasi (tanpa populasi),0.6683,0.0417,0.6819,0.0408,0.0497

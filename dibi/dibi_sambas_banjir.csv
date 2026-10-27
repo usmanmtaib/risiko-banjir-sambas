@@ -1,0 +1,32 @@
+id,Tanggal / Waktu Kejadian,Minggu,Bulan,Tahun,Kode Provinsi,Provinsi,Kode Kabupaten,Kabupaten,Kode Jenis Kejadian,Nama Kejadian,Jenis Bencana,is_bencana,Jumlah Kejadian,Meninggal,Hilang,Luka / Sakit,menderita_mengungsi,Rumah Rusak Berat,Rumah Rusak Sedang,Rumah Rusak Ringan,Rumah Terendam,Satuan Pendidikan Rusak,Rumah Ibadat Rusak,Fasilitas Pelayanan Kesehatan Rusak,Kantor Rusak,Jembatan Rusak
+5bf33363-a222-482e-90d6-cd040d697f02,1778353200526.0,19,5,2026,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,150,0,0,0,28,0,0,0,0,0
+29868f38-342d-4ec1-bf95-d3015208b2e6,1767427200173.0,1,1,2026,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,1804,0,0,0,406,0,0,0,0,0
+d072c318-3046-4369-bfbc-b0ec7b8a131a,1765177080913.0,50,12,2025,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,1,0,0,9429,0,0,0,314,0,0,0,0,0
+9422736a-1cd7-4897-9134-17978b35d24d,1765177080734.0,50,12,2025,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,False,1.0,0,0,0,0,0,0,0,160,0,0,0,0,0
+5f245f20-c31e-4159-8bba-e0f1c7069c0c,1737079200000.0,3,1,2025,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,2,0,0,65079,0,0,0,12318,0,0,0,0,0
+d4c375ef-ae9c-4e17-aed1-a186ac6c6fbd,1736614800000.0,2,1,2025,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,390,0,0,0,106,0,0,0,0,0
+24efee7a-d47b-4d70-8cad-8afc112834b9,1734678000000.0,51,12,2024,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,6421,0,0,0,1455,0,0,0,0,0
+a6eb96bf-b6c7-4b8a-9bf9-90765e4e5250,1734130800000.0,50,12,2024,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,10692,0,0,0,1615,0,0,0,0,0
+ed95e9ce-5711-4aae-8b55-c2f1bbc4247f,1732982400000.0,48,11,2024,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,1943,0,0,0,560,0,0,0,0,0
+86491c37-f39d-4501-b6bc-23d3dbbfafc6,1732302240000.0,47,11,2024,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,660,0,0,0,5,0,0,0,0,0
+eb5684de-9e2d-48c4-8d33-5a6af1ba528e,1709269200000.0,9,3,2024,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,609,0,0,0,200,0,0,0,0,0
+9ce205a8-e520-4232-8d6a-8764b466fd12,1704726000000.0,2,1,2024,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,6617,0,0,0,1823,0,0,0,0,0
+c55dcf36-ad47-45ce-9970-e525328aa861,1677952800000.0,9,3,2023,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,2902,0,0,0,867,0,0,0,0,0
+89b7bab2-9f2f-4918-b00e-e31673b0012e,1677801660000.0,9,3,2023,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,8989,0,0,0,2379,0,0,0,0,0
+c11d78e3-bba3-47a6-9ac6-6d2f3239ebbe,1677715260000.0,9,3,2023,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,633,0,0,0,162,0,0,0,0,0
+1fc494e8-b36e-4c3e-9733-0c3e495714d3,1677542460000.0,9,2,2023,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,3527,0,0,0,933,0,0,0,0,0
+ccc76502-3917-4e75-b02c-7af7a1949bb0,1675148400000.0,5,1,2023,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,37341,0,0,0,3716,0,0,0,0,0
+efe0f0bb-0275-46e3-b6ea-2110e0326dea,1671837780000.0,51,12,2022,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,980,0,0,0,196,0,0,0,0,0
+91a32ce8-1663-4d6e-864a-36a049fcc025,1659815100000.0,31,8,2022,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,900,0,0,0,180,0,0,0,0,0
+b75402bb-9b19-4697-bdf8-f532b97ff7f2,1642057200000.0,2,1,2022,61,Kalimantan Barat,61.01,Sambas,1012,Banjir Bandang,Banjir,True,1.0,0,0,0,430,0,0,0,86,0,0,0,0,0
+fabb4a80-2bf4-48c4-9246-5bdcabb43629,1590606000000.0,22,5,2020,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,5188,0,0,0,188,0,0,0,0,0
+4e6baa6b-a00a-4ab5-bfb6-618e86923d7f,1575676860000.0,49,12,2019,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,890,0,0,0,174,0,0,0,0,0
+fc02cb3d-c15c-4e36-8269-3e7aec6de3af,1455955688000.0,7,2,2016,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,2500,0,0,0,0,0,0,0,0,0
+7e554d89-46e3-4154-b97a-831d19d9783e,1454918888000.0,6,2,2016,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,3204,0,0,0,2000,0,0,0,0,0
+4ccd544f-7cda-4a6d-b7e7-1069e789dded,1328083688000.0,5,2,2012,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,0,0,0,0,0,0,0,0,0,0
+f908567b-b4b4-4514-9b8f-c6a941568d66,1325405288000.0,52,1,2012,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,0,0,0,0,0,0,0,0,0,0
+c6576477-c0f4-4d08-a25e-53e7dbcf64be,1233475688000.0,5,2,2009,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,0,0,0,0,0,0,0,0,0,0
+b499e4e6-622f-43fb-afe9-48030adabbd2,1231574888000.0,2,1,2009,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,34860,0,0,0,6972,0,0,0,0,0
+05756220-849c-42f5-90d5-a0da51f5566c,1230797288000.0,1,1,2009,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2fd727e6-816a-4777-be8c-c25d137b30ac,1229328488000.0,51,12,2008,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,0,0,0,0,78,0,0,0,0,0
+f64c5aff-2ad6-4304-9ef3-e4af9b2d90e6,1199174888000.0,1,1,2008,61,Kalimantan Barat,61.01,Sambas,1010,Banjir,Banjir,True,1.0,0,0,0,0,0,0,0,0,0,0,0,0,0

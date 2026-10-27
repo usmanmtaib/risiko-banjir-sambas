@@ -1,0 +1,47 @@
+{
+ "osm_tersedia": true,
+ "kolom_fisik": [
+  "elevation_m",
+  "slope_deg",
+  "distance_river_m",
+  "hand_mean",
+  "hand_min",
+  "twi_mean",
+  "twi_p90",
+  "log_upa_max",
+  "frac_hand_lt2m",
+  "frac_hand_lt5m",
+  "lc_-1",
+  "lc_10",
+  "lc_20",
+  "lc_30",
+  "lc_40",
+  "lc_60",
+  "lc_80",
+  "lc_90",
+  "lc_95"
+ ],
+ "kolom_pelaporan": [
+  "log_pop",
+  "built_up",
+  "log_dist_road_m",
+  "log_dist_major_road_m",
+  "log_dist_place_m",
+  "log_dist_town_m",
+  "road_km_per_km2"
+ ],
+ "temporal": {
+  "n_tahun": 14,
+  "spearman_kejadian_vs_tahun": 0.93,
+  "spearman_kejadian_vs_hujan_tahunan": 0.574,
+  "spearman_kejadian_vs_hujan_harian_maks": 0.411,
+  "tren_log_per_tahun": 0.357,
+  "faktor_kenaikan_per_tahun": 1.43,
+  "spearman_residu_tren_vs_hujan_tahunan": -0.046
+ },
+ "spearman_dengan_log_populasi": {
+  "rho_pelaporan_pop": 0.874,
+  "rho_fisiksaja_pop": 0.49,
+  "rho_terkoreksi_pop": 0.185
+ }
+}

@@ -1,0 +1,29 @@
+config,model,pr_mean,pr_sd,roc_mean
+HAND ambang 0.5 km2 (dengan pop),LogReg,0.12,0.0071,0.7093
+HAND ambang 0.5 km2 (dengan pop),RandomForest,0.0863,0.0161,0.72
+HAND ambang 0.5 km2 (tanpa pop),LogReg,0.0667,0.0042,0.6707
+HAND ambang 0.5 km2 (tanpa pop),RandomForest,0.0609,0.006,0.6943
+HAND ambang 1 km2 (dengan pop),LogReg,0.1228,0.008,0.7136
+HAND ambang 1 km2 (dengan pop),RandomForest,0.0854,0.0101,0.7197
+HAND ambang 1 km2 (tanpa pop),LogReg,0.0712,0.0056,0.6788
+HAND ambang 1 km2 (tanpa pop),RandomForest,0.0604,0.0055,0.6982
+HAND ambang 10 km2 (dengan pop),LogReg,0.1186,0.007,0.7041
+HAND ambang 10 km2 (dengan pop),RandomForest,0.0879,0.014,0.7208
+HAND ambang 10 km2 (tanpa pop),LogReg,0.0664,0.003,0.6632
+HAND ambang 10 km2 (tanpa pop),RandomForest,0.0639,0.0088,0.6975
+HAND ambang 2 km2 (dengan pop),LogReg,0.1227,0.0078,0.7087
+HAND ambang 2 km2 (dengan pop),RandomForest,0.086,0.0129,0.7208
+HAND ambang 2 km2 (tanpa pop),LogReg,0.0705,0.0043,0.6698
+HAND ambang 2 km2 (tanpa pop),RandomForest,0.0577,0.0043,0.6965
+HAND ambang 5 km2 (dengan pop),LogReg,0.1212,0.0073,0.7026
+HAND ambang 5 km2 (dengan pop),RandomForest,0.0883,0.0133,0.7225
+HAND ambang 5 km2 (tanpa pop),LogReg,0.0697,0.0059,0.6648
+HAND ambang 5 km2 (tanpa pop),RandomForest,0.0605,0.0047,0.7006
+Kontrol: dasar (dengan pop),LogReg,0.1143,0.0069,0.7083
+Kontrol: dasar (dengan pop),RandomForest,0.0801,0.0079,0.7265
+Kontrol: dasar (tanpa pop),LogReg,0.0572,0.0032,0.6402
+Kontrol: dasar (tanpa pop),RandomForest,0.0495,0.0026,0.684
+Kontrol: dasar + TWI/upa tanpa HAND (dengan pop),LogReg,0.1147,0.007,0.7096
+Kontrol: dasar + TWI/upa tanpa HAND (dengan pop),RandomForest,0.0905,0.0099,0.722
+Kontrol: dasar + TWI/upa tanpa HAND (tanpa pop),LogReg,0.059,0.0031,0.6525
+Kontrol: dasar + TWI/upa tanpa HAND (tanpa pop),RandomForest,0.0567,0.0032,0.6889

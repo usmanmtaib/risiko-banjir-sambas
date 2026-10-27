@@ -1,0 +1,6 @@
+model,ROC-AUC,PR-AUC,presisi/recall 10% teratas,presisi/recall 3% teratas,presisi/recall 1% teratas,DIBI ROC-AUC,DIBI PR-AUC
+Hujan 3 hari saja (1 fitur),0.753,0.038,"4,6% / 40,5%","5,2% / 13,7%","8,1% / 7,4%",0.878,0.136
+Hujan 7 hari saja (1 fitur),0.793,0.051,"5,5% / 48,3%","8,6% / 22,9%","8,0% / 7,1%",0.854,0.108
+Hujan (9 fitur),0.794,0.051,"5,4% / 47,3%","8,1% / 21,4%","9,1% / 8,1%",0.837,0.087
+Hujan + musim,0.824,0.048,"4,7% / 41,7%","7,6% / 20,1%","8,0% / 7,1%",0.837,0.099
+Hujan + musim + kecamatan (model final),0.834,0.051,"5,2% / 45,8%","7,2% / 19,1%","8,6% / 7,6%",0.836,0.1

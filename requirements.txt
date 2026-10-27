@@ -1,0 +1,24 @@
+# Python 3.12.10 (Windows 11). Versi persis yang dipakai saat analisis.
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+geopandas==1.2.0
+shapely==2.2.0
+pyogrio==0.13.0
+pyproj==3.8.0
+pyarrow==26.0.0
+rasterio==1.5.2
+pysheds==0.5
+numba==0.68.0
+matplotlib==3.11.2
+shap==0.54.1
+joblib==1.6.0
+requests==2.34.2
+# dashboard
+streamlit==1.66.0
+folium==0.20.0
+branca==0.8.2
+# hanya untuk mengunduh ulang Sentinel-1 (fetch_s1.py)
+planetary-computer==1.0.0
+pystac-client==0.9.1

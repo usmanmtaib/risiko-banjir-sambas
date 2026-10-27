@@ -1,0 +1,10 @@
+[out:json][timeout:180];
+(
+  way["landuse"="aquaculture"](0.85,108.8,2.18,109.85);
+  way["landuse"="salt_pond"](0.85,108.8,2.18,109.85);
+  way["water"~"^(pond|basin|reservoir|lagoon)$"](0.85,108.8,2.18,109.85);
+  way["natural"="wetland"](0.85,108.8,2.18,109.85);
+  way["natural"="mud"](0.85,108.8,2.18,109.85);
+  way["natural"="coastline"](0.85,108.8,2.18,109.85);
+);
+out geom;

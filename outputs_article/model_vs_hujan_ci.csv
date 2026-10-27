@@ -1,0 +1,4 @@
+model,roc,roc_ci,pr,pr_ci
+Hujan 7 hari saja,0.793,"[0.728, 0.851]",0.051,"[0.036, 0.076]"
+Hujan 3 hari saja,0.753,"[0.697, 0.807]",0.038,"[0.026, 0.06]"
+Model final (hujan + musim + kecamatan),0.834,"[0.802, 0.866]",0.051,"[0.037, 0.071]"

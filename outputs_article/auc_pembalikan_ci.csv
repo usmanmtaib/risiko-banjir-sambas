@@ -1,0 +1,17 @@
+subset,label,prediktor,n,positif,auc,ci_lo,ci_hi
+Semua sel layak,Radar (Sentinel-1),Terrain + tutupan lahan,1754,176,0.767,0.699,0.813
+Semua sel layak,Radar (Sentinel-1),Terrain/hidrologi,1754,176,0.693,0.635,0.756
+Semua sel layak,Radar (Sentinel-1),Pelaporan,1754,176,0.63,0.539,0.686
+Semua sel layak,Radar (Sentinel-1),Populasi,1754,176,0.505,0.433,0.592
+Semua sel layak,Groundsource,Terrain + tutupan lahan,1754,69,0.666,0.598,0.726
+Semua sel layak,Groundsource,Terrain/hidrologi,1754,69,0.69,0.627,0.753
+Semua sel layak,Groundsource,Pelaporan,1754,69,0.77,0.707,0.828
+Semua sel layak,Groundsource,Populasi,1754,69,0.748,0.693,0.804
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Radar (Sentinel-1),Terrain + tutupan lahan,1314,62,0.724,0.628,0.805
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Radar (Sentinel-1),Terrain/hidrologi,1314,62,0.759,0.68,0.828
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Radar (Sentinel-1),Pelaporan,1314,62,0.612,0.517,0.698
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Radar (Sentinel-1),Populasi,1314,62,0.513,0.386,0.643
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Groundsource,Terrain + tutupan lahan,1314,54,0.678,0.61,0.74
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Groundsource,Terrain/hidrologi,1314,54,0.669,0.597,0.739
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Groundsource,Pelaporan,1314,54,0.778,0.7,0.842
+"Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",Groundsource,Populasi,1314,54,0.751,0.682,0.805

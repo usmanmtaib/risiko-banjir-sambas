@@ -1,0 +1,8 @@
+streamlit>=1.40
+folium>=0.17
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+joblib>=1.4
+shapely>=2.0
+branca>=0.7

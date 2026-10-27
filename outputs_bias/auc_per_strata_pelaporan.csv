@@ -1,0 +1,4 @@
+strata_pelaporan,n,positif,laju,auc_fisik_saja,auc_fisik_sd,auc_terkoreksi,ulangan_valid
+rendah,2072.0,12.8,0.006,0.615,0.048,0.612,5
+sedang,2071.0,33.4,0.016,0.473,0.008,0.473,5
+tinggi,2072.0,119.8,0.058,0.593,0.005,0.55,5

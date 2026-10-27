@@ -1,0 +1,29 @@
+{
+ "prevalensi_2021_2025": 0.01133,
+ "n_kecamatan_hari": 34694,
+ "positif": 393,
+ "lintas_tahun": {
+  "roc": 0.834,
+  "pr": 0.051,
+  "brier": 0.01121,
+  "brier_skill": -0.0009
+ },
+ "leave_one_kecamatan_out": {
+  "roc": 0.825,
+  "pr": 0.043,
+  "brier": 0.01411,
+  "brier_skill": -0.2598
+ },
+ "loko_roc_per_kecamatan_median": 0.888,
+ "validasi_dibi_kabupaten_hari": {
+  "n_tanggal_dibi": 17,
+  "hari_berlabel": 46,
+  "hari": 1826,
+  "roc_smax": 0.836,
+  "pr_smax": 0.1,
+  "roc_s3": 0.83,
+  "pr_s3": 0.093,
+  "roc_r3max": 0.883,
+  "pr_r3max": 0.158
+ }
+}

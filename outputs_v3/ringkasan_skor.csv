@@ -1,0 +1,17 @@
+model,roc_mean,roc_sd,pr_mean,pr_sd,dPR_vs_populasi,ulangan_lebih_baik
+Populasi saja,0.7254,0.0072,0.1249,0.0061,0.0,0
+B. Dasar + HAND/TWI (+populasi) | LogReg,0.7087,0.0134,0.1227,0.0078,-0.0022,1
+D. + HAND/TWI + hujan spasial (+populasi) | LogReg,0.7034,0.0164,0.1213,0.0056,-0.0037,0
+A. Dasar (+populasi) | LogReg,0.7083,0.0119,0.1143,0.0069,-0.0106,0
+B. Dasar + HAND/TWI (+populasi) | HistGB,0.7167,0.0132,0.1068,0.0069,-0.0181,0
+A. Dasar (+populasi) | HistGB,0.729,0.0103,0.1017,0.0066,-0.0233,0
+D. + HAND/TWI + hujan spasial (+populasi) | HistGB,0.7135,0.0158,0.0953,0.0022,-0.0296,0
+B. Dasar + HAND/TWI (+populasi) | RandomForest,0.7216,0.0139,0.0882,0.0122,-0.0367,0
+A. Dasar (+populasi) | RandomForest,0.7265,0.0118,0.0801,0.0079,-0.0449,0
+D. + HAND/TWI + hujan spasial (+populasi) | RandomForest,0.7118,0.0179,0.0756,0.0087,-0.0493,0
+E. + HAND/TWI + hujan spasial (tanpa populasi) | LogReg,0.6824,0.0137,0.0713,0.0068,-0.0537,0
+C. Dasar + HAND/TWI (tanpa populasi) | LogReg,0.6698,0.008,0.0705,0.0043,-0.0545,0
+E. + HAND/TWI + hujan spasial (tanpa populasi) | RandomForest,0.6942,0.0147,0.0596,0.0083,-0.0654,0
+C. Dasar + HAND/TWI (tanpa populasi) | RandomForest,0.6964,0.015,0.0579,0.0061,-0.067,0
+E. + HAND/TWI + hujan spasial (tanpa populasi) | HistGB,0.6783,0.0186,0.0573,0.0053,-0.0677,0
+C. Dasar + HAND/TWI (tanpa populasi) | HistGB,0.6826,0.0161,0.0561,0.0047,-0.0688,0

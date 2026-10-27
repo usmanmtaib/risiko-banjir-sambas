@@ -1,0 +1,132 @@
+{
+ "selisih_AUC": [
+  {
+   "subset": "Semua sel layak",
+   "label": "Radar (Sentinel-1)",
+   "terrain_lc_minus_pelaporan": [
+    0.138,
+    0.061,
+    0.233
+   ],
+   "terrain_minus_pelaporan": [
+    0.063,
+    -0.026,
+    0.185
+   ]
+  },
+  {
+   "subset": "Semua sel layak",
+   "label": "Groundsource",
+   "terrain_lc_minus_pelaporan": [
+    -0.104,
+    -0.167,
+    -0.049
+   ],
+   "terrain_minus_pelaporan": [
+    -0.08,
+    -0.131,
+    -0.027
+   ]
+  },
+  {
+   "subset": "Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",
+   "label": "Radar (Sentinel-1)",
+   "terrain_lc_minus_pelaporan": [
+    0.112,
+    -0.01,
+    0.237
+   ],
+   "terrain_minus_pelaporan": [
+    0.147,
+    0.034,
+    0.269
+   ]
+  },
+  {
+   "subset": "Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",
+   "label": "Groundsource",
+   "terrain_lc_minus_pelaporan": [
+    -0.1,
+    -0.169,
+    -0.02
+   ],
+   "terrain_minus_pelaporan": [
+    -0.108,
+    -0.161,
+    -0.042
+   ]
+  }
+ ],
+ "auc_radar_untuk_groundsource": [
+  {
+   "subset": "Semua sel layak",
+   "auc": 0.537,
+   "ci": [
+    0.483,
+    0.614
+   ]
+  },
+  {
+   "subset": "Setelah pesisir dan tepi air dikecualikan (> 2 km, air < 2%)",
+   "auc": 0.561,
+   "ci": [
+    0.492,
+    0.637
+   ]
+  }
+ ],
+ "model_vs_hujan7": {
+  "selisih_PR": [
+   -0.0005,
+   -0.018,
+   0.013
+  ],
+  "selisih_ROC": [
+   0.041,
+   -0.006,
+   0.094
+  ],
+  "n": 34694,
+  "positif": 393,
+  "hari_unik": 1826,
+  "prevalensi": 0.0113
+ },
+ "keterkaitan_waktu": {
+  "r3": {
+   "n_hari": 191,
+   "median_persentil": 87,
+   "frac_ge_p90": 0.429,
+   "frac_ge_p95": 0.309,
+   "rata_kejadian": 63.1,
+   "rata_acak": 33.7,
+   "acak_ci": [
+    29.5,
+    38.3
+   ],
+   "p": 0.0
+  },
+  "r7": {
+   "n_hari": 191,
+   "median_persentil": 90,
+   "frac_ge_p90": 0.513,
+   "frac_ge_p95": 0.366,
+   "rata_kejadian": 137.4,
+   "rata_acak": 78.7,
+   "acak_ci": [
+    71.4,
+    86.8
+   ],
+   "p": 0.0
+  }
+ },
+ "dibi": {
+  "n": 21,
+  "positif": 18,
+  "ge3": 13,
+  "peluang_dasar": 0.17,
+  "wilson_ci": [
+   0.65,
+   0.95
+  ]
+ }
+}
