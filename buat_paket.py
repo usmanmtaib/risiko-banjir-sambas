@@ -63,10 +63,11 @@ def copy_tree(src, dst):
 
 
 def main():
-    # kosongkan tujuan, tetapi pertahankan riwayat git (.git) dan .gitignore
+    # kosongkan tujuan, tetapi pertahankan riwayat git (.git), .gitignore, dan .gitattributes
+    # (.gitattributes berisi "* -text" agar repo menyimpan byte yang sama dengan SHA256SUMS.txt)
     DST.mkdir(parents=True, exist_ok=True)
     for p in DST.iterdir():
-        if p.name in (".git", ".gitignore"):
+        if p.name in (".git", ".gitignore", ".gitattributes"):
             continue
         shutil.rmtree(p) if p.is_dir() else p.unlink()
     n = 0
@@ -89,10 +90,13 @@ def main():
         if (SRC / "paket" / f).exists():
             shutil.copy2(SRC / "paket" / f, DST / f)
     # daftar checksum
-    files = sorted(p for p in DST.rglob("*") if p.is_file() and ".git" not in p.relative_to(DST).parts
-                   and p.name != ".gitignore")
+    # urutan tidak peka huruf besar-kecil, sama di semua versi Python
+    files = sorted((p for p in DST.rglob("*") if p.is_file() and ".git" not in p.relative_to(DST).parts
+                    and p.name not in (".gitignore", ".gitattributes")),
+                   key=lambda p: p.relative_to(DST).as_posix().lower())
     rows = [f"{hashlib.sha256(f.read_bytes()).hexdigest()}  {f.relative_to(DST).as_posix()}" for f in files]
-    (DST / "SHA256SUMS.txt").write_text("\n".join(rows) + "\n", encoding="utf-8")
+    # LF agar sha256sum -c dapat membaca nama berkas (CRLF menambahkan \r ke nama)
+    (DST / "SHA256SUMS.txt").write_text("\n".join(rows) + "\n", encoding="utf-8", newline="\n")
     files.append(DST / "SHA256SUMS.txt")
     z = DST.parent / f"{DST.name}.zip"
     with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
