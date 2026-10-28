@@ -130,6 +130,7 @@ Keluaran di `outputs_kec/`: panel kecamatan-hari, kinerja lintas-tahun dan ke-de
 |---|---|
 | `panel_final.py` | Validasi terhadap catatan DIBI (kabupaten-hari) |
 | `bpbd_validasi.py` | Mencocokkan tabel kompilasi peneliti dengan label Groundsource dan skor model |
+| `bpbd_validasi_tanggal_sumber.py` | Varian `bpbd_validasi.py` dengan tanggal dari sumber asli (Galing 6–7 Nov 2022; Maret 2023 pada 2–4 Mar), dipakai untuk Bab 4.6 dan Lampiran B laporan |
 | `bpbd_csv_cek.py` | Memeriksa tabel per desa terhadap DIBI dan sumber lain |
 
 Data DIBI diambil secara manual dari dasbor publik `https://dibi.bnpb.go.id/superset/dashboard/2/`. Respons API-nya disimpan di `dibi/api_v1_dashboard_2*.json`.
